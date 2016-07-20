@@ -1,4 +1,19 @@
-/* Basic reset */
+
+/* --------------------------------------------------------------
+
+    Author: Tom Williams
+    URL: http://tomwillia.ms
+
+    Project Name: JS Calculator
+    Version: 1.0
+    URL: —
+
+   -------------------------------------------------------------- */
+
+
+
+/* ----------------- Basic Reset -----------------*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -9,6 +24,9 @@
 	font-size: 25px;
 	font-weight: 300;
 }
+
+
+/* ----------------- Styles -----------------*/
 
 body {
 	background: #565656;
@@ -96,8 +114,6 @@ strong {
 	
 	border-radius: 50%;
 
-
-
 	margin: 0 7px 11px 0;
 	padding-top: 11px;
 	
@@ -139,23 +155,37 @@ strong {
 	background: #234567;
 }
 
-
-
 .keys span,
 .keys span.operator, 
 .keys span.eval, 
 .top span.clear {
-	box-shadow: inset 0px 3px 3px rgba(255,255,255,0.1), 
-				0px 3px 3px rgba(0,0,0,0.1), 
+	box-shadow: inset 0px  3px 3px rgba(255,255,255,0.1), 
+					  0px  3px 3px rgba(0,0,0,0.1), 
 				inset 0px -3px 3px rgba(0,0,0,0.1);
 }
 
 #calculator {
-	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2),
-				inset 0px 3px 3px rgba(255,255,255,0.1), 
-				0px 3px 3px rgba(0,0,0,0.1), 
-				inset 0px -3px 3px rgba(0,0,0,0.1);
+	box-shadow: 	  0px 10px 15px rgba(0, 0, 0, 0.2),
+				inset 0px  3px  3px rgba(255,255,255,0.1), 
+					  0px  3px  3px rgba(0,0,0,0.1), 
+				inset 0px -3px  3px rgba(0,0,0,0.1);
 }
+
+/* Radial BG gradient 
+html {
+	height: 100%;
+	background: radial-gradient(circle, #fff 45%, #888);
+	background-size: cover;
+}
+*/
+
+
+
+/* --------------------------------------------------------------
+
+   Media Queries
+
+   -------------------------------------------------------------- */
 
 
 @media screen and (max-width: 480px) {
@@ -168,12 +198,3 @@ strong {
 
 
 
-
-
-/* A nice BG gradient 
-html {
-	height: 100%;
-	background: radial-gradient(circle, #fff 45%, #888);
-	background-size: cover;
-}
-*/
