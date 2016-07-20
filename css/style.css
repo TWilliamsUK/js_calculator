@@ -29,18 +29,18 @@
 /* ----------------- Styles -----------------*/
 
 body {
-	background: #565656;
+	background: #d4e1f2;
 }
 
 #about h1 {
-	color: #FFF0F5;
+	color: #234567;
 	font-size: 1.6rem;
 	font-weight: 600;
 	padding-bottom: 25px;
 }
 
 #about p {
-	color: #FFF0F5;
+	color: #234567;
 	font-size: .8rem;
 	padding-bottom: 10px;
 }
@@ -70,7 +70,7 @@ strong {
 	margin: 100px 30px;
 	padding: 35px 20px 45px;
 	
-	background: #ddd865;
+	background: #234567;
 	border-radius: 15px;
 
 	display: block;
@@ -93,7 +93,7 @@ strong {
 	/* Typography */
 	font-size: 30px;
 	line-height: 58px;
-	color: #FFF0F5;
+	color: #234567;
 	text-align: right;
 	letter-spacing: 2px;
 }
